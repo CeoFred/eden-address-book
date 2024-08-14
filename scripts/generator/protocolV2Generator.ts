@@ -1,6 +1,6 @@
 import {Hex, Client, getContract} from 'viem';
 import {AddressInfo, PoolConfig, ReserveData} from '../configs/types';
-import {CHAIN_ID_CLIENT_MAP} from '@bgd-labs/js-utils';
+import {CHAIN_ID_CLIENT_MAP} from '@eden-labs/js-utils';
 import {appendFileSync, writeFileSync} from 'fs';
 import {
   bytes32toAddress,

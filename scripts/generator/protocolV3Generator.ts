@@ -1,7 +1,7 @@
 import {Hex, Client, getContract, zeroAddress} from 'viem';
 import {AddressInfo, Addresses, PoolConfig, ReserveData} from '../configs/types';
 import {REWARDS_CONTROLLER_ABI} from '../abi/rewardsController_v3_abi';
-import {CHAIN_ID_CLIENT_MAP} from '@bgd-labs/js-utils';
+import {CHAIN_ID_CLIENT_MAP} from '@eden-labs/js-utils';
 import {appendFileSync, writeFileSync} from 'fs';
 import {
   addressOrZero,
@@ -138,7 +138,6 @@ async function getAdditionalTokenInfo(
     ),
   };
 }
-
 export async function getPoolV3Addresses(
   pool: PoolConfig,
 ): Promise<PoolV3Addresses & {eModes: Map<number, string>}> {

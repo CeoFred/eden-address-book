@@ -1,5 +1,5 @@
 import {Hex} from 'viem';
-import {ChainId} from '@bgd-labs/js-utils';
+import {ChainId} from '@eden-labs/js-utils';
 import {NetworkAddresses} from '../types';
 
 export const arbitrumAddresses: NetworkAddresses<{

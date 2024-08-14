@@ -1,4 +1,4 @@
-import {ChainId} from '@bgd-labs/js-utils';
+import {ChainId} from '@eden-labs/js-utils';
 import {GovernanceConfig} from '../types';
 
 export const governanceConfigPolygon: GovernanceConfig = {

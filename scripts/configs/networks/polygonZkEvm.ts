@@ -1,5 +1,5 @@
 import {NetworkAddresses} from '../types';
-import {ChainId} from '@bgd-labs/js-utils';
+import {ChainId} from '@eden-labs/js-utils';
 
 export const polygonZkEvmAddresses: NetworkAddresses = {
   name: 'PolygonZkEvm',

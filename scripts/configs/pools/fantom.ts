@@ -1,4 +1,4 @@
-import {ChainId} from '@bgd-labs/js-utils';
+import {ChainId} from '@eden-labs/js-utils';
 import {PoolConfig} from '../types';
 
 export const fantomTestnetProtoV3: PoolConfig = {

@@ -1,6 +1,6 @@
 import {Client, Hex, getAddress, zeroAddress} from 'viem';
 import {AddressInfo, Addresses} from '../configs/types';
-import {CHAIN_ID_CLIENT_MAP} from '@bgd-labs/js-utils';
+import {CHAIN_ID_CLIENT_MAP} from '@eden-labs/js-utils';
 import {getStorageAt} from 'viem/actions';
 
 function getExplorerLink(chainId: number, address: Hex) {
