@@ -2699,6 +2699,46 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+      "name": "tBTC v2",
+      "decimals": 18,
+      "symbol": "tBTC",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x10Ac93971cdb1F5c778144084242374473c350Da",
+      "name": "Aave Ethereum tBTC",
+      "decimals": 18,
+      "symbol": "aEthtBTC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "decimals": 8,
+      "symbol": "cbBTC",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x5c647cE0Ae10658ec44FA4E11A51c96e94efd1Dd",
+      "name": "Aave Ethereum cbBTC",
+      "decimals": 8,
+      "symbol": "aEthcbBTC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+      }
+    },
+    {
       "chainId": 137,
       "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
       "name": "Aave Polygon DAI",
@@ -3941,6 +3981,26 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "decimals": 8,
+      "symbol": "cbBTC",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6",
+      "name": "Aave Base cbBTC",
+      "decimals": 8,
+      "symbol": "aBascbBTC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
+        "underlying": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+      }
+    },
+    {
       "chainId": 1088,
       "address": "0x4c078361FC9BbB78DF910800A991C7c3DD2F6ce0",
       "name": "DAI Token",
@@ -4392,6 +4452,20 @@
       "extensions": {
         "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
         "underlying": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0"
+      }
+    },
+    {
+      "chainId": 100,
+      "address": "0xf0E7eC247b918311afa054E0AEdb99d74c31b809",
+      "name": "Static Aave Gnosis USDCe",
+      "decimals": 6,
+      "symbol": "stataGnoUSDCe",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/bgd-labs/web3-icons/main/icons/full/statausdc.svg",
+      "extensions": {
+        "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
+        "underlying": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+        "underlyingAToken": "0xC0333cb85B59a788d8C7CAe5e1Fd6E229A3E5a65"
       }
     },
     {
@@ -6521,6 +6595,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 34 },
-  "timestamp": "2024-08-26T16:48:54.135Z"
+  "version": { "major": 3, "minor": 0, "patch": 35 },
+  "timestamp": "2024-09-25T15:14:30.999Z"
 }

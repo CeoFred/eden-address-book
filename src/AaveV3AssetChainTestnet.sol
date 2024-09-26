@@ -23,8 +23,8 @@ library AaveV3AssetChainTestnet {
   // https://scan-testnet.assetchain.org/address/0xcF929d9B1d629597864E5D26040BcE2f053308d3
   address internal constant POOL_CONFIGURATOR_IMPL = 0xcF929d9B1d629597864E5D26040BcE2f053308d3;
 
-  // https://scan-testnet.assetchain.org/address/0x5CD90B19Ff12Dd79038E17EA34e17316214be629
-  IAaveOracle internal constant ORACLE = IAaveOracle(0x5CD90B19Ff12Dd79038E17EA34e17316214be629);
+  // https://scan-testnet.assetchain.org/address/0x453E7Ea975c9E365C01Ca5C5902144F566Bb4a07
+  IAaveOracle internal constant ORACLE = IAaveOracle(0x453E7Ea975c9E365C01Ca5C5902144F566Bb4a07);
 
   // https://scan-testnet.assetchain.org/address/0x1a596150Ea4eFD979E104ae7C1Bc1CF49b5BE6D4
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
@@ -58,8 +58,8 @@ library AaveV3AssetChainTestnet {
   // https://scan-testnet.assetchain.org/address/0x266f54141fD689F2BE6f09e93C4Bf5C721b53775
   address internal constant EMISSION_MANAGER = 0x266f54141fD689F2BE6f09e93C4Bf5C721b53775;
 
-  // https://scan-testnet.assetchain.org/address/0xa8f6429Cc68Aa173944E408e92F713545BA16145
-  address internal constant FAUCET = 0xa8f6429Cc68Aa173944E408e92F713545BA16145;
+  // https://scan-testnet.assetchain.org/address/0x598c9Ca8ce5A7D32cbD61eef87B2E1F240c87979
+  address internal constant FAUCET = 0x598c9Ca8ce5A7D32cbD61eef87B2E1F240c87979;
 
   // https://scan-testnet.assetchain.org/address/0x5966B78320C576ef275820E110F0575732976f54
   address internal constant UI_INCENTIVE_DATA_PROVIDER = 0x5966B78320C576ef275820E110F0575732976f54;
@@ -203,6 +203,27 @@ library AaveV3AssetChainTestnetAssets {
   // https://scan-testnet.assetchain.org/address/0x4C7a0b2Ad8658259404D21653cCbc9D126452f06
   address internal constant LINK_INTEREST_RATE_STRATEGY =
     0x4C7a0b2Ad8658259404D21653cCbc9D126452f06;
+
+  // https://scan-testnet.assetchain.org/address/0xc125329d053761c9d4Fb167986027a8eeeCCF73f
+  address internal constant cNGN_UNDERLYING = 0xc125329d053761c9d4Fb167986027a8eeeCCF73f;
+
+  uint8 internal constant cNGN_DECIMALS = 6;
+
+  // https://scan-testnet.assetchain.org/address/0xe26EC9f6eAA414fD51a275f6EC3B3550525B0573
+  address internal constant cNGN_A_TOKEN = 0xe26EC9f6eAA414fD51a275f6EC3B3550525B0573;
+
+  // https://scan-testnet.assetchain.org/address/0x91D0Ed86fafb1aCe3d4EBDEd0385F7e9f4cbFa08
+  address internal constant cNGN_V_TOKEN = 0x91D0Ed86fafb1aCe3d4EBDEd0385F7e9f4cbFa08;
+
+  // https://scan-testnet.assetchain.org/address/0xe753aCF0B409649EAFAFcDF9Bf9C2B5a704D34b0
+  address internal constant cNGN_S_TOKEN = 0xe753aCF0B409649EAFAFcDF9Bf9C2B5a704D34b0;
+
+  // https://scan-testnet.assetchain.org/address/0xe537c1ebaed0773adC1B9796ebe980736E5EaE33
+  address internal constant cNGN_ORACLE = 0xe537c1ebaed0773adC1B9796ebe980736E5EaE33;
+
+  // https://scan-testnet.assetchain.org/address/0x74d85886a196e1c99127B4D296c2E47303E3e94D
+  address internal constant cNGN_INTEREST_RATE_STRATEGY =
+    0x74d85886a196e1c99127B4D296c2E47303E3e94D;
 }
 
 library AaveV3AssetChainTestnetEModes {
