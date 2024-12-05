@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import {appendFileSync, existsSync, mkdirSync, readdirSync, rmSync, writeFileSync} from 'fs';
 import {governanceConfigMainnet} from './configs/governance/ethereum';
-import {assetChainTestnetProtoV3} from './configs/pools/assetchain';
+import {assetChainTestnetProtoV3,assetChainProtoV3} from './configs/pools/assetchain';
 import {arbitrumProtoV3, arbitrumSepoliaProtoV3} from './configs/pools/arbitrum';
 import {
   avalancheProtoV2,
@@ -44,7 +44,7 @@ import {governanceConfigBNB} from './configs/governance/bnb';
 import {governanceConfigGnosis} from './configs/governance/gnosis';
 import {baseAddresses, baseSepoliaAddresses} from './configs/networks/base';
 import {generateNetworkAddresses} from './generator/networkGenerator';
-import {assetChainTestnetAddresses} from './configs/networks/assetchain';
+import {assetChainTestnetAddresses, assetChainAddresses} from './configs/networks/assetchain';
 import {arbitrumAddresses, arbitrumSepoliaAddresses} from './configs/networks/arbitrum';
 import {avalancheAddresses, avalancheFujiAddresses} from './configs/networks/avalanche';
 import {ethereumAddresses, sepoliaAddresses} from './configs/networks/ethereum';
@@ -126,6 +126,7 @@ async function main() {
       harmonyProtoV3,
       lidoEthereumMainnetProtoV3Pool,
       assetChainTestnetProtoV3,
+      assetChainProtoV3,
     ].map((config) => generateProtocolV3Library(config)),
   );
 
@@ -151,6 +152,7 @@ async function main() {
     polygonZkEvmAddresses,
     sepoliaAddresses,
     assetChainTestnetAddresses,
+    assetChainAddresses,
   ].map((addresses) => generateNetworkAddresses(addresses));
 
   const govImports = generateGovV2();
